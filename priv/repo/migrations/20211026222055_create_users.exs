@@ -5,7 +5,6 @@ defmodule Library.Migrations.CreateUsers do
     create table("users") do
       add :first_name, :string
       add :last_name, :string
-      add :email, :string
 
       timestamps()
     end
